@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'MontserratAlternates'; /* Укажите имя шрифта */
+    src: url('fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.ttf') format('truetype'); /* Укажите путь к файлу .ttf */
+}
+
+body{
+    background: rgb(196,148,233);
+    background: radial-gradient(circle, rgba(196,148,233,0.3562018557422969) 1%, rgba(255,214,69,0.5046612394957983) 100%, rgba(255,247,169,0.809983368347339) 100%);
+}
+.wrapper {
+    max-width: 800px; 
+    margin: 40px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px; 
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+.logo-image {
+    max-width: 30%;
+    height: auto;
+    display:block;
+    margin: 130px auto 10px;
+}
+
+.main-text{
+    text-align: center;
+    font-family: 'MontserratAlternates', sans-serif;
+    color: #89725B;
+}
+
+h2{
+    color: #d5a8b7;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.studio-image{
+    max-width: 50%;
+    height: auto;
+    display:block;
+    margin: 40px auto;
+}
+
+.head_container {
+    max-width: 600px;
+    max-height: 150px;
+    margin: 40px auto;
+    font-family: 'MontserratAlternates', sans-serif;
+    font-weight: 600;
+}
+
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 45px; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: #89725B;
+}
+
+nav a.active {
+    text-decoration: underline;
+    font-weight: 700;
+}
+li a:hover {
+    text-decoration: underline;
+}
+.button{
+    background-color: #FFFAE8; /* Цвет фона при наведении на кнопку */
+    padding: 5px 10px; /* Отступы вместо фиксированной ширины */
+    display: inline-flex; /* Используем inline-flex для кнопки */
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 30%; 
+    white-space: nowrap; /* Не переносить текст на новую строку */
+}
+
+.contact_text{
+    text-align: center;
+    font-family: 'MontserratAlternates', sans-serif;
+    color: #d5a8b7;
+}
+
+.learn_more a{
+    text-decoration: none; 
+    padding: 10;
+    font-family: 'MontserratAlternates', sans-serif;
+    font-weight: 600;
+    color: #89725B;
+    margin: 20px 320px;
+}
+
+.works_images{
+    max-width: 70%;
+    height: auto;
+    display:block;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.telegram-link {
+    color: #d5a8b7; /* Задайте нужный цвет */
+}
